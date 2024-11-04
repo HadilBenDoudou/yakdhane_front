@@ -1,0 +1,41 @@
+name: projectflutter
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.2.1
+  animated_text_kit: ^4.2.1
+  http: ^1.2.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Correction de la section assets pour le logo
+  assets:
+    - images/logo.jpeg
+    - images/logo2.png
+    - images/logo3.jpeg
+    - images/bg.jpg
+    - images/yakdhane.png
+    - images/test10.jpg
+    - images/test12.jpeg
+    - images/test13.jpeg
+    - images/test14.jpg
+    - images/test15.avif
+    - images/test16.avif
+
+
